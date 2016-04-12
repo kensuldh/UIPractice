@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: bb473c41e49ab4058b5910669c1c718c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: body
+    100002: //RootNode
+    100004: eye
+    100006: Plane
+    100008: Armature
+    100010: Armature|Bone
+    100012: Armature|Bone.001
+    100014: Armature|Bone.002
+    100016: Armature|Bone.003
+    100018: Armature|Bone.004
+    100020: Armature|Bone.007
+    100022: Armature|Bone.009
+    100024: Armature|Bone.010
+    100026: Armature|IKBodyControl
+    100028: Armature|IKControlFootL
+    100030: Armature|IKControlFootR
+    100032: Bone
+    100034: Bone_001
+    100036: Bone_002
+    100038: Bone_003
+    100040: Bone_004
+    100042: Bone_007
+    100044: Bone_009
+    100046: Bone_010
+    100048: Camera
+    100050: IKBodyControl
+    100052: IKControlFootL
+    100054: IKControlFootR
+    100056: Lamp
+    400000: body
+    400002: //RootNode
+    400004: eye
+    400006: Plane
+    400008: Armature
+    400010: Armature|Bone
+    400012: Armature|Bone.001
+    400014: Armature|Bone.002
+    400016: Armature|Bone.003
+    400018: Armature|Bone.004
+    400020: Armature|Bone.007
+    400022: Armature|Bone.009
+    400024: Armature|Bone.010
+    400026: Armature|IKBodyControl
+    400028: Armature|IKControlFootL
+    400030: Armature|IKControlFootR
+    400032: Bone
+    400034: Bone_001
+    400036: Bone_002
+    400038: Bone_003
+    400040: Bone_004
+    400042: Bone_007
+    400044: Bone_009
+    400046: Bone_010
+    400048: Camera
+    400050: IKBodyControl
+    400052: IKControlFootL
+    400054: IKControlFootR
+    400056: Lamp
+    2300000: body
+    2300002: eye
+    2300004: Plane
+    3300000: body
+    3300002: eye
+    3300004: Plane
+    4300000: body
+    4300002: eye
+    4300004: Plane
+    7400000: ArmatureAction
+    7400002: ArmatureAction_001
+    7400004: ArmatureAction0
+    7400006: Down
+    7400008: Walk
+    9500000: //RootNode
+    13700000: body
+    13700002: eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_007
+        weight: 1
+      - path: Armature/Bone/Bone_002
+        weight: 1
+      - path: Armature/Bone/Bone_002/Bone_003
+        weight: 1
+      - path: Armature/Bone/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: Armature/Bone/Bone_009
+        weight: 1
+      - path: Armature/Bone/Bone_009/Bone_010
+        weight: 1
+      - path: Armature/IKBodyControl
+        weight: 1
+      - path: Armature/IKControlFootL
+        weight: 1
+      - path: Armature/IKControlFootR
+        weight: 1
+      - path: body
+        weight: 1
+      - path: eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Down
+      takeName: Down
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone_001
+        weight: 1
+      - path: Armature/Bone/Bone_001/Bone_007
+        weight: 1
+      - path: Armature/Bone/Bone_002
+        weight: 1
+      - path: Armature/Bone/Bone_002/Bone_003
+        weight: 1
+      - path: Armature/Bone/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: Armature/Bone/Bone_009
+        weight: 1
+      - path: Armature/Bone/Bone_009/Bone_010
+        weight: 1
+      - path: Armature/IKBodyControl
+        weight: 1
+      - path: Armature/IKControlFootL
+        weight: 1
+      - path: Armature/IKControlFootR
+        weight: 1
+      - path: body
+        weight: 1
+      - path: eye
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
